@@ -53,7 +53,7 @@ class StudentGradeApp(ctk.CTk):
 
         ctk.CTkButton(tab_courses, text="Add Course", command="").grid(row=1, column=1, columnspan=2, pady=10)  
 
-        
+        print("Ovo je izmjena")
 
 if __name__ == "__main__":  
     ctk.set_appearance_mode("dark")  
